@@ -111,21 +111,7 @@ include_once 'functions.php';
         <div class="container">
 
             <div class="row">
-                <?=  displayItem1();
-                displayItem2();
-                displayItem3();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product();
-                block_product() ?>
+                <?=  displayItem1(), displayItem2(), displayItem3(),displayItem() ?>
             </div>
         </div>
     </div>
