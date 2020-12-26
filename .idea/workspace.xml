@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/addItem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/displayItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/displayItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item.php" beforeDir="false" afterPath="$PROJECT_DIR$/item.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607536324540</updated>
       <workItem from="1607536325860" duration="4320000" />
-      <workItem from="1608986013180" duration="5970000" />
+      <workItem from="1608986013180" duration="10473000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -60,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608989975221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="catalogue.php affiché base functions.php&#10;pour displayItem">
+      <created>1608999873834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608999873834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="catalogue.php affiché base functions.php&#10;pour displayItem">
+      <created>1608999952389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608999952389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +98,7 @@
     <MESSAGE value="Item.php corrigé" />
     <MESSAGE value="catalogue.php affiché base item.php" />
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem1(),2(),3() et autres doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue.php affiché base functions.php&#10;pour displayItem1(),2(),3() et autres doc" />
+    <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue.php affiché base functions.php&#10;pour displayItem" />
   </component>
 </project>

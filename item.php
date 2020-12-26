@@ -8,7 +8,7 @@ function block_product(){
     ?>
     <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-            <img src="<?php echo $image ?>" class="card-img-top" width="auto" alt=<?= $name ?>>
+            <img src="<?= $image ?>" class="card-img-top" width="auto" alt=<?= $name ?>>
             <div class="card-body">
                 <h3 class="card-title"> <?= $name ?> </h3>
                 <div class="d-flex justify-content-between align-items-center">
