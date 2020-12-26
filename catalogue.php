@@ -1,5 +1,5 @@
 <?php
-include 'item.php';
+include_once 'functions.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -111,9 +111,9 @@ include 'item.php';
         <div class="container">
 
             <div class="row">
-                <?= block_product();
-                block_product();
-                block_product();
+                <?=  displayItem1();
+                displayItem2();
+                displayItem3();
                 block_product();
                 block_product();
                 block_product();
@@ -137,8 +137,7 @@ include 'item.php';
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+        <p>Catalogue créé par Cédric Pagès, <a href="https://cedric-pages.jimdo.com/">retrouver ma présentation</a></p>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
