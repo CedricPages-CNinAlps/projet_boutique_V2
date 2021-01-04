@@ -1,3 +1,9 @@
+<?php
+if (isset($_GET['isError']) && $_GET['isError']==true){
+    echo 'Merci de completer tous les champs et/ou de mettre un prix supérieur à 0 !';
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -63,8 +69,8 @@
             }
         }
     </style>
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
+    <!-- Custom styles for this template
+    <link href="album.css" rel="stylesheet"> -->
 </head>
 <body>
 <header>
@@ -122,12 +128,12 @@
 
                         <div class="col-md-6 mb-3">
                             <label for="productName">Nom du produit : </label>
-                            <input type="text" class="form-control" id="product_name">
+                            <input type="text" class="form-control" id="productName" name="productName">
                         </div>
 
                         <div class="col-md-6 mb-3">
                             <label for="productPrice">Prix du produit : </label>
-                            <input type="number" class="form-control" id="product_price">
+                            <input type="number" class="form-control" id="productPrice" name="productPrice">
                         </div>
 
                         <div class="col-md-6 mb-3">
