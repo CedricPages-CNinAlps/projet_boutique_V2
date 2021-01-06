@@ -4,7 +4,7 @@ function add_product(){
     ?>
     <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-            <img src="img/<?=$_FILES['image']['name']?>" class="card-img-top" width="auto" alt=<?= $_FILES['image']['name'] ?>>
+            <img src="img/<?=basename($_FILES['image']['name'])?>" class="card-img-top" width="auto" alt=<?= basename($_FILES['image']['name']) ?>>
             <div class="card-body">
                 <h3 class="card-title"> <?= htmlspecialchars($_POST["productName"]) ?> </h3>
                 <div class="d-flex justify-content-between align-items-center">
