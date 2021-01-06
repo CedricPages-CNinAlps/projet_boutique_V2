@@ -1,8 +1,8 @@
 <?php
 
-$bdd = new PDO('mysql:host=localhost;dbname=my_eshop','cedric','aqw123456789', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-if($bdd->connect_error){
-    die('Erreur : ' .$bdd->connect_error);
+$bdd = new PDO('mysql:host=localhost;dbname=my_eshop', 'cedric', 'aqw123456789', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+if ($bdd->connect_error) {
+    die('Erreur : ' . $bdd->connect_error);
 }
 
 
@@ -27,8 +27,7 @@ $requete->execute(array('Nain D1'));
 
 echo 'Connexion serveur réussie';
 
-while ($donnees = $reponse->fetch())
-{
+while ($donnees = $reponse->fetch()) {
     echo '<p>' . $donnees['name'] . ' - ' . $donnees['price'] . ' € - ' . $donnees['quantity'] . ' unités disponible </p>';
 }
 
@@ -38,8 +37,7 @@ while ($donnees = $reponse->fetch())
 
 <?php
 
-while ($donnees = $requete->fetch())
-{
+while ($donnees = $requete->fetch()) {
     echo '<p>' . $donnees['name'] . ' - ' . $donnees['price'] . ' € - ' . $donnees['quantity'] . ' unités disponible </p>';
 }
 
