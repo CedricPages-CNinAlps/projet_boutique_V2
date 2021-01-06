@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="connexion base bdd">
-      <change afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="4 query">
+      <change afterPath="$PROJECT_DIR$/database_2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion_bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/connexion_bdd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <workItem from="1608986013180" duration="12863000" />
       <workItem from="1609751195601" duration="865000" />
       <workItem from="1609756133248" duration="187000" />
-      <workItem from="1609923264874" duration="11522000" />
+      <workItem from="1609923264874" duration="15140000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609941306267</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4 query">
+      <created>1609943303711</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609943303711</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +140,7 @@
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem" />
     <MESSAGE value="créartion addItem.php et displayItem.php" />
     <MESSAGE value="connexion base bdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="connexion base bdd" />
+    <MESSAGE value="4 query" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 query" />
   </component>
 </project>
