@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="4 query">
-      <change afterPath="$PROJECT_DIR$/database_2.php" afterDir="false" />
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insert.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/displayItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/displayItem.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BDD/PHP_BDD_query_playground" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,10 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607536324540</updated>
       <workItem from="1607536325860" duration="4320000" />
-      <workItem from="1608986013180" duration="12863000" />
-      <workItem from="1609751195601" duration="865000" />
-      <workItem from="1609756133248" duration="187000" />
-      <workItem from="1609923264874" duration="15140000" />
+      <workItem from="1608986013180" duration="10473000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -80,42 +76,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608999952389</updated>
     </task>
-    <task id="LOCAL-00006" summary="créartion addItem.php et displayItem.php">
-      <created>1609008546393</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1609008546393</updated>
-    </task>
-    <task id="LOCAL-00007" summary="créartion addItem.php et displayItem.php">
-      <created>1609751670163</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1609751670163</updated>
-    </task>
-    <task id="LOCAL-00008" summary="connexion base bdd">
-      <created>1609923572963</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1609923572963</updated>
-    </task>
-    <task id="LOCAL-00009" summary="connexion base bdd">
-      <created>1609941306267</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1609941306267</updated>
-    </task>
-    <task id="LOCAL-00010" summary="4 query">
-      <created>1609943303711</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1609943303711</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,9 +99,6 @@
     <MESSAGE value="catalogue.php affiché base item.php" />
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem1(),2(),3() et autres doc" />
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem" />
-    <MESSAGE value="créartion addItem.php et displayItem.php" />
-    <MESSAGE value="connexion base bdd" />
-    <MESSAGE value="4 query" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 query" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue.php affiché base functions.php&#10;pour displayItem" />
   </component>
 </project>

@@ -57,11 +57,6 @@ GROUP BY os.number');
     }
 }
 
-function query_insert(){
-    $bdd = connect();
-}
-
-
 ?>
 
 <!doctype html>
@@ -86,11 +81,6 @@ function query_insert(){
 
 <h1><strong>Query 9</strong></h1>
 <?php query_9() ?>
-
-<h1><strong>Query Insertion</strong></h1>
-<?php query_insert() ?>
-
-<h1><strong>Query x</strong></h1>
 
 </body>
 </html>

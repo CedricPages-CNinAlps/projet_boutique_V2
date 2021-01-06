@@ -4,12 +4,12 @@ function add_product(){
     ?>
     <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-            <img src="img/<?=basename($_FILES['image']['name'])?>" class="card-img-top" width="auto" alt=<?= basename($_FILES['image']['name']) ?>>
+            <img src="img/<?=$_FILES['image']['name']?>" class="card-img-top" width="auto" alt=<?= $_FILES['image']['name'] ?>>
             <div class="card-body">
-                <h3 class="card-title"> <?= htmlspecialchars($_POST["productName"]) ?> </h3>
+                <h3 class="card-title"> <?= htmlspecialchars($_POST["product_name"]) ?> </h3>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <button class="btn btn-primary"> <?= htmlspecialchars($_POST["productPrice"]) ?> </button>
+                        <button class="btn btn-primary"> <?= htmlspecialchars($_POST["product_price"]) ?> </button>
                     </div>
                 </div>
             </div>
@@ -20,13 +20,10 @@ function add_product(){
 
 $valider = '';
 // Testons si le nom est complété ainsi que le prix et que le prix est supérieur à 0
-if (!empty($_POST["productName"]) AND !empty($_POST["productPrice"]) AND $_POST["productPrice"]>0){
-    $valider = "Le nom du produit est " . htmlspecialchars($_POST["productName"]) . " et il est au prix de ". htmlspecialchars($_POST["productPrice"]);
+if (!empty($_POST["product_name"]) AND !empty($_POST["product_price"]) AND $_POST["product_price"]>0){
+    $valider = add_product();
 }
-else {
-    header('Location:http://localhost/addItem.php?isError=true');
     exit();
-}
 ?>
 
 <!doctype html>
@@ -64,8 +61,7 @@ else {
 <body>
 
 <br><h2>Mon produit ajouté</h2><br>
-<?= add_product(),
-$valider ?>
+<?= $valider ?>
 <br>
 <?php
 // Testons si le fichier a bien été envoyé et s'il n'y a pas d'erreur
