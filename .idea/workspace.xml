@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="Class Article &amp; connexion base &amp; affichage base - DONE">
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="All done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_V2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue_V2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/Catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP_POO_Warrior" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,7 +61,7 @@
       <workItem from="1610099093122" duration="905000" />
       <workItem from="1610100169788" duration="638000" />
       <workItem from="1610101334520" duration="738000" />
-      <workItem from="1610102369131" duration="13564000" />
+      <workItem from="1610102369131" duration="14702000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -158,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610112730128</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="All done">
+      <created>1610117651828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610117651828</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +190,7 @@
     <MESSAGE value="correction" />
     <MESSAGE value="création dossier class + corrections diverses" />
     <MESSAGE value="Class Article &amp; connexion base &amp; affichage base - DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Article &amp; connexion base &amp; affichage base - DONE" />
+    <MESSAGE value="All done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All done" />
   </component>
 </project>
