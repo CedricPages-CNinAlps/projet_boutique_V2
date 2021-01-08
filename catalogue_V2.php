@@ -1,6 +1,6 @@
 <?php
 include_once 'functions.php';
-include 'class/Catalogue.php';
+//include 'class/Catalogue.php';
 $affichage = new Catalogue();
 
 ?>
@@ -118,9 +118,7 @@ $affichage = new Catalogue();
         <div class="container">
 
             <div class="row">
-                <?=  //displayItem1(), displayItem2(), displayItem3();
-//                displayArticle();
-                displayItem()?>
+                <?=displayCat($affichage->getCatalogue())?>
             </div>
         </div>
     </div>

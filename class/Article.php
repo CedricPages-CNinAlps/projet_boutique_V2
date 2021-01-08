@@ -5,7 +5,7 @@ class Article {
     //attributs
     private $id;
     private $name;
-    private $desciption;
+    private $description;
     private $price;
     private $weight;
     private $quantity;
@@ -14,17 +14,17 @@ class Article {
     private $categorie_id;
 
     //CONSTRUCT
-    public function __construct($id,$name,$desciption,$price,$weight,$quantity,$image,$availability,$categorie_id)
+    public function __construct($id,$name,$description,$price,$weight,$quantity,$image,$availability,$categorie_id)
     {
-        $this->id;
-        $this->name;
-        $this->desciption;
-        $this->price;
-        $this->weight;
-        $this->quantity;
-        $this->image;
-        $this->availability;
-        $this->categorie_id;
+        $this->id = $id;
+        $this->name = $name;
+        $this->description = $description;
+        $this->price = $price;
+        $this->weight = $weight;
+        $this->quantity = $quantity;
+        $this->image = $image;
+        $this->availability = $availability;
+        $this->categorie_id = $categorie_id;
     }
 
     //Methode GETTER
@@ -38,9 +38,9 @@ class Article {
         return $this->name;
     }
 
-    public function getDesciption()
+    public function getDescription()
     {
-        return $this->desciption;
+        return $this->description;
     }
 
     public function getPrice()

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="création dossier class + corrections diverses">
-      <change afterPath="$PROJECT_DIR$/class/Catalogue.php" afterDir="false" />
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="Class Article &amp; connexion base &amp; affichage base - DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue_V2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue_V2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/Catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Catalogue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       <workItem from="1610099093122" duration="905000" />
       <workItem from="1610100169788" duration="638000" />
       <workItem from="1610101334520" duration="738000" />
-      <workItem from="1610102369131" duration="8922000" />
+      <workItem from="1610102369131" duration="13564000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610109003558</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Class Article &amp; connexion base &amp; affichage base - DONE">
+      <created>1610112730128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610112730128</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +186,7 @@
     <MESSAGE value="4 query" />
     <MESSAGE value="correction" />
     <MESSAGE value="création dossier class + corrections diverses" />
-    <option name="LAST_COMMIT_MESSAGE" value="création dossier class + corrections diverses" />
+    <MESSAGE value="Class Article &amp; connexion base &amp; affichage base - DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Article &amp; connexion base &amp; affichage base - DONE" />
   </component>
 </project>

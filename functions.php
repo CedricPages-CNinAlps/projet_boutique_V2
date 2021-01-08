@@ -1,5 +1,5 @@
 <?php
-
+include 'class/Catalogue.php';
 $products_list = [
     [
         "name" => "Anooki fond rouge",
@@ -33,26 +33,33 @@ $products_list = [
     ]
 ];
 
-
-
-/*function displayArticle(Article $article)
+function displayArticle(Article $article)
 {
-    echo '
-        <div class="col-md-4">
+        ?>
+            <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-                <img src="<?= $product["image"] ?>" class="card-img-top" width="auto" alt=<?= $product["name"] ?>>
+                <img src="<?= $article->getImage() ?>" class="card-img-top" width="auto" alt=<?= $article->getName() ?>>
                 <div class="card-body">
-                    <h3 class="card-title"> <?= $product["name"] ?> </h3>
+                    <h3 class="card-title"> <?= $article->getName() ?> </h3>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button class="btn btn-primary"> <?= $product["price"] ?> </button>
+                            <button class="btn btn-primary"> <?= $article->getPrice() . ' €' ?> </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>'
+        </div>
+            <?php
+}
+
+function displayCat($list){
+    /*echo '<pre>';
+    var_dump($list);
+    echo '</pre>';*/
+    foreach ($list AS $item){
+        displayArticle($item);
     }
-}*/
+}
 
 function displayItem()
 {
