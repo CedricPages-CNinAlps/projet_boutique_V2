@@ -1,4 +1,5 @@
 <?php
+
 $products_list = [
     [
         "name" => "Anooki fond rouge",
@@ -31,6 +32,32 @@ $products_list = [
         "image" => "img/anooki_orange_5.png"
     ]
 ];
+
+//Appel BDD
+function article()
+{
+    $article= $bdd->query('SELECT * FROM products WHERE availability=1');
+    while ($donnees = $article->fetch()){}
+}
+
+function displayArticle(Article $article)
+{
+    echo '
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="<?= $product["image"] ?>" class="card-img-top" width="auto" alt=<?= $product["name"] ?>>
+                <div class="card-body">
+                    <h3 class="card-title"> <?= $product["name"] ?> </h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button class="btn btn-primary"> <?= $product["price"] ?> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>'
+    }
+}
 
 function displayItem()
 {

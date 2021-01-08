@@ -1,6 +1,5 @@
 <?php
 include_once 'functions.php';
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -117,7 +116,8 @@ include_once 'functions.php';
 
             <div class="row">
                 <?=  //displayItem1(), displayItem2(), displayItem3();
-                displayItem() ?>
+                displayArticle();
+                displayItem()?>
             </div>
         </div>
     </div>
