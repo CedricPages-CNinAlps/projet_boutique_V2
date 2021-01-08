@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="correction">
-      <change afterPath="$PROJECT_DIR$/catalogue_V2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/connexion.php" afterDir="false" />
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="création dossier class + corrections diverses">
+      <change afterPath="$PROJECT_DIR$/class/Catalogue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/displayItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/displayItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue_V2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue_V2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Connexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lQjguCJThrb4RL8GFLpmvXdled" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +66,7 @@
       <workItem from="1610099093122" duration="905000" />
       <workItem from="1610100169788" duration="638000" />
       <workItem from="1610101334520" duration="738000" />
-      <workItem from="1610102369131" duration="5381000" />
+      <workItem from="1610102369131" duration="8922000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -139,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610098079164</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="création dossier class + corrections diverses">
+      <created>1610109003558</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610109003558</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +179,7 @@
     <MESSAGE value="connexion base bdd" />
     <MESSAGE value="4 query" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="création dossier class + corrections diverses" />
+    <option name="LAST_COMMIT_MESSAGE" value="création dossier class + corrections diverses" />
   </component>
 </project>

@@ -1,5 +1,8 @@
 <?php
 include_once 'functions.php';
+include 'class/Catalogue.php';
+$affichage = new Catalogue();
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -66,7 +69,7 @@ include_once 'functions.php';
             }
         }
     </style>
-    <!-- Custom styles for this template -->
+
     <link href="album.css" rel="stylesheet">
 </head>
 <body>
@@ -116,7 +119,7 @@ include_once 'functions.php';
 
             <div class="row">
                 <?=  //displayItem1(), displayItem2(), displayItem3();
-                displayArticle();
+//                displayArticle();
                 displayItem()?>
             </div>
         </div>

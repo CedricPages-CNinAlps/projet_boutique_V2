@@ -3,7 +3,7 @@
 $products_list = [
     [
         "name" => "Anooki fond rouge",
-        "price" => 10 . " €",
+        "price" => 1 . " €",
         "image" => "img/anooki_rouge_5.png"
     ],
     [
@@ -13,34 +13,29 @@ $products_list = [
     ],
     [
         "name" => "Anooki fond vert",
-        "price" => 10 . " €",
+        "price" => 100 . " €",
         "image" => "img/anooki_vert_5.png"
     ],
     [
         "name" => "Anooki fond cyan",
-        "price" => 10 . " €",
+        "price" => 1000 . " €",
         "image" => "img/anooki_cyan_5.png"
     ],
     [
         "name" => "Anooki fond jaune",
-        "price" => 10 . " €",
+        "price" => 10000 . " €",
         "image" => "img/anooki_jaune_5.png"
     ],
     [
         "name" => "Anooki fond orange",
-        "price" => 10 . " €",
+        "price" => 100000 . " €",
         "image" => "img/anooki_orange_5.png"
     ]
 ];
 
-//Appel BDD
-function article()
-{
-    $article= $bdd->query('SELECT * FROM products WHERE availability=1');
-    while ($donnees = $article->fetch()){}
-}
 
-function displayArticle(Article $article)
+
+/*function displayArticle(Article $article)
 {
     echo '
         <div class="col-md-4">
@@ -57,7 +52,7 @@ function displayArticle(Article $article)
             </div>
         </div>'
     }
-}
+}*/
 
 function displayItem()
 {
