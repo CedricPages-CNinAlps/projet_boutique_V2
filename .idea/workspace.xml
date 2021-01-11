@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/class/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/Catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Catalogue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/ArticleSpecific.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lQjguCJThrb4RL8GFLpmvXdled" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610371114005</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commentaire du code">
+      <created>1610371673703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610371673703</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +137,7 @@
     <MESSAGE value="insert.sql" />
     <MESSAGE value="Création de la classe Client.php" />
     <MESSAGE value="Class ListeClients et rendu clients" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class ListeClients et rendu clients" />
+    <MESSAGE value="Commentaire du code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commentaire du code" />
   </component>
 </project>
