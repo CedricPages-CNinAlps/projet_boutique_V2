@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class/Client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/ListeClients.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/Connexion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/ListeClients.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/ListeClients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609956055886</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Création de la classe Client.php">
+      <created>1610367976578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610367976578</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +115,7 @@
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem1(),2(),3() et autres doc" />
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem" />
     <MESSAGE value="insert.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert.sql" />
+    <MESSAGE value="Création de la classe Client.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de la classe Client.php" />
   </component>
 </project>
