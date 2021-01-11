@@ -2,7 +2,7 @@
 
 class Article {
 
-    //attributs
+    //attributs présents dans la BDD
     private $id;
     private $name;
     private $description;
@@ -13,7 +13,7 @@ class Article {
     private $availability;
     private $categorie_id;
 
-    //CONSTRUCT
+    //CONSTRUCT avec initialisation des attributs
     public function __construct($id,$name,$description,$price,$weight,$quantity,$image,$availability,$categorie_id)
     {
         $this->id = $id;
@@ -27,7 +27,7 @@ class Article {
         $this->categorie_id = $categorie_id;
     }
 
-    //Methode GETTER
+    //Methode GETTER afin de retourner la valeur
     public function getId()
     {
         return $this->id;
