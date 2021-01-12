@@ -46,8 +46,8 @@ function displayArticle(Article $article)
                         echo $article->getName() . ' de couleur ' . $article->getColor();
                     } else {
                         echo $article->getName();
-                    }
-                    ?> </h3>
+                    };
+                    echo ' à ' . $article->getPrice() . ' € ' ?></h3>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                         <button class="btn btn-primary"> <?= $article->getPrice() . ' €' ?> </button>

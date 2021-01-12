@@ -28,10 +28,10 @@ class Article {
     }
 
     //Methode GETTER afin de retourner la valeur
-    /*public function getId()
+    public function getId()
     {
         return $this->id;
-    }*/
+    }
 
     public function getName()
     {
@@ -51,12 +51,12 @@ class Article {
     /*public function getWeight()
     {
         return $this->weight;
-    }
+    }*/
 
     public function getQuantity()
     {
         return $this->quantity;
-    }*/
+    }
 
     public function getImage()
     {

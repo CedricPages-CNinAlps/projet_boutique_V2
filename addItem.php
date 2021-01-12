@@ -137,7 +137,7 @@ if (isset($_GET['isError']) && $_GET['isError']==true){
                         </div>
 
                         <div class="col-md-6 mb-3">
-                            <label>Photo du produit : <input type="file" name="product_image"/></label>
+                            <label>Photo du produit : <input type="file" name="productImage"/></label>
                         </div>
                     </div>
 
