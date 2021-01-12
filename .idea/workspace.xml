@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="">
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="All done">
+      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_V2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue_V2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class/Catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Catalogue.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +35,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP_POO_Warrior" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\projet_boutique" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\projet_boutique\class" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607536324540</updated>
       <workItem from="1607536325860" duration="4320000" />
-      <workItem from="1608986013180" duration="10473000" />
+      <workItem from="1608986013180" duration="12863000" />
+      <workItem from="1609751195601" duration="865000" />
+      <workItem from="1609756133248" duration="187000" />
+      <workItem from="1609923264874" duration="15140000" />
+      <workItem from="1610099093122" duration="905000" />
+      <workItem from="1610100169788" duration="638000" />
+      <workItem from="1610101334520" duration="738000" />
+      <workItem from="1610102369131" duration="14702000" />
     </task>
     <task id="LOCAL-00001" summary="Item.php corrigé">
       <created>1608987917633</created>
@@ -84,42 +100,70 @@
       <option name="project" value="LOCAL" />
       <updated>1608999952389</updated>
     </task>
-    <task id="LOCAL-00006" summary="insert.sql">
-      <created>1609956055886</created>
+    <task id="LOCAL-00006" summary="créartion addItem.php et displayItem.php">
+      <created>1609008546393</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1609956055886</updated>
+      <updated>1609008546393</updated>
     </task>
-    <task id="LOCAL-00007" summary="Création de la classe Client.php">
-      <created>1610367976578</created>
+    <task id="LOCAL-00007" summary="créartion addItem.php et displayItem.php">
+      <created>1609751670163</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1610367976578</updated>
+      <updated>1609751670163</updated>
     </task>
-    <task id="LOCAL-00008" summary="Class ListeClients et rendu clients">
-      <created>1610371114005</created>
+    <task id="LOCAL-00008" summary="connexion base bdd">
+      <created>1609923572963</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1610371114005</updated>
+      <updated>1609923572963</updated>
     </task>
-    <task id="LOCAL-00009" summary="Commentaire du code">
-      <created>1610371673703</created>
+    <task id="LOCAL-00009" summary="connexion base bdd">
+      <created>1609941306267</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1610371673703</updated>
+      <updated>1609941306267</updated>
     </task>
-    <task id="LOCAL-00010" summary="It2 Class ArticleSpecific.php">
-      <created>1610377313735</created>
+    <task id="LOCAL-00010" summary="4 query">
+      <created>1609943303711</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1610377313735</updated>
+      <updated>1609943303711</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="correction">
+      <created>1610098079164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610098079164</updated>
+    </task>
+    <task id="LOCAL-00012" summary="création dossier class + corrections diverses">
+      <created>1610109003558</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610109003558</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Class Article &amp; connexion base &amp; affichage base - DONE">
+      <created>1610112730128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610112730128</updated>
+    </task>
+    <task id="LOCAL-00014" summary="All done">
+      <created>1610117651828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610117651828</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,11 +186,13 @@
     <MESSAGE value="catalogue.php affiché base item.php" />
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem1(),2(),3() et autres doc" />
     <MESSAGE value="catalogue.php affiché base functions.php&#10;pour displayItem" />
-    <MESSAGE value="insert.sql" />
-    <MESSAGE value="Création de la classe Client.php" />
-    <MESSAGE value="Class ListeClients et rendu clients" />
-    <MESSAGE value="Commentaire du code" />
-    <MESSAGE value="It2 Class ArticleSpecific.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="It2 Class ArticleSpecific.php" />
+    <MESSAGE value="créartion addItem.php et displayItem.php" />
+    <MESSAGE value="connexion base bdd" />
+    <MESSAGE value="4 query" />
+    <MESSAGE value="correction" />
+    <MESSAGE value="création dossier class + corrections diverses" />
+    <MESSAGE value="Class Article &amp; connexion base &amp; affichage base - DONE" />
+    <MESSAGE value="All done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All done" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+Pour ajouter un colonne (color) à la table (product) :
+ALTER TABLE `products` ADD `color` VARCHAR(20) CHARACTER SET ascii COLLATE ascii_general_ci NULL DEFAULT NULL AFTER `categorie_id`;
+
+Pour ajouter une valeur de paramètre à color :
+UPDATE products SET color = 'red' WHERE id IN(1,10);
+UPDATE products SET color = 'orange' WHERE id IN(6,15);
+UPDATE products SET color = 'purple' WHERE id = 8;

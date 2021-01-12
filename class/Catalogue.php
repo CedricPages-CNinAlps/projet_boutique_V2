@@ -14,8 +14,8 @@ class Catalogue
         $bdd = new PDO('mysql:host=localhost;dbname=my_eshop', 'cedric', 'aqw123456789', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
         // Formulation de la requête SQL pour tous les produits disponible
-        $article = $bdd->query('SELECT * FROM products WHERE availability=1');
-        $color_article = $bdd->query('SELECT * FROM products WHERE availability=1 AND color IS NOT NULL');
+        $article = $bdd->query('SELECT * FROM products WHERE availability=1 AND color IS NOT NULL');
+        $color_article = $bdd->query('SELECT * FROM products WHERE availability=1 ');
 
         // Création d'une boucle afin de remonter toutes les valeurs
         foreach ($article->fetchAll(PDO::FETCH_ASSOC) as $data){
