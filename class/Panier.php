@@ -3,11 +3,12 @@
 
 class Panier
 {
-    // 1 - Création d'un tableau associatif basé sur la table "products" en prenant "id" & "quantité"
+    // 1 - Création d'un tableau associatif
 https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/tableau-associatif/
 https://tutowebdesign.com/les-tableaux-php.php
 
     // 2 - Construct avec connexion à la BDD
+        //tableau associatif basé sur la table "products" en prenant "id" & "quantité"
 
     // 3 - Méthode "add" avec paramètre id (table product)
 
