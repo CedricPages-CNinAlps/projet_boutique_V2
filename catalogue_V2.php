@@ -107,29 +107,6 @@ $affichage = new Catalogue();
 
 <main role="main">
 
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1>Nos produits </h1>
-            <p class="lead text-muted">Retrouvez tous nos produits pour votre plus grand plaisir.</p>
-        </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-        <div class="container">
-
-            <div class="row">
-                <?=displayCat($affichage->getColorCatalogue())?>
-            </div>
-        </div>
-    </div>
-
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1>Nos produits</h1>
-            <p class="lead text-muted">Retrouvez tous nos produits pour votre plus grand plaisir.</p>
-        </div>
-    </section>
-
     <div class="album py-5 bg-light">
         <div class="container">
 

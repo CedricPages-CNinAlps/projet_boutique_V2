@@ -28,27 +28,27 @@ class Article {
     }
 
     //Methode GETTER afin de retourner la valeur
-    public function getId()
+    /*public function getId()
     {
         return $this->id;
-    }
+    }*/
 
     public function getName()
     {
         return $this->name;
     }
 
-    public function getDescription()
+    /*public function getDescription()
     {
         return $this->description;
-    }
+    }*/
 
     public function getPrice()
     {
         return $this->price;
     }
 
-    public function getWeight()
+    /*public function getWeight()
     {
         return $this->weight;
     }
@@ -56,14 +56,14 @@ class Article {
     public function getQuantity()
     {
         return $this->quantity;
-    }
+    }*/
 
     public function getImage()
     {
         return $this->image;
     }
 
-    public function getAvailability()
+    /*public function getAvailability()
     {
         return $this->availability;
     }
@@ -71,5 +71,5 @@ class Article {
     public function getCategorieId()
     {
         return $this->categorie_id;
-    }
+    }*/
 }

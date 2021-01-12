@@ -41,7 +41,13 @@ function displayArticle(Article $article)
         <div class="card mb-4 shadow-sm">
             <img src="<?= $article->getImage() ?>" class="card-img-top" width="auto" alt=<?= $article->getName() ?>>
             <div class="card-body">
-                <h3 class="card-title"> <?= $article->getName() ?> </h3>
+                <h3 class="card-title">
+                    <?php if (method_exists($article, 'getColor')) {
+                        echo $article->getName() . ' de couleur ' . $article->getColor();
+                    } else {
+                        echo $article->getName();
+                    }
+                    ?> </h3>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                         <button class="btn btn-primary"> <?= $article->getPrice() . ' €' ?> </button>
