@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="Itération 2 - Done">
-      <change afterPath="$PROJECT_DIR$/class/Panier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/addItem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/basket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_V2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue_V2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/displayItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/displayItem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-    </list>
+    <list default="true" id="e07f841e-9f07-4c2a-9732-22b91d1cea20" name="Default Changelist" comment="Itération 3 - Pseudo code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610446824245</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Itération 3 - Pseudo code">
+      <created>1610466744771</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610466744771</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +212,7 @@
     <MESSAGE value="All done" />
     <MESSAGE value="mise à jour et notes" />
     <MESSAGE value="Itération 2 - Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Itération 2 - Done" />
+    <MESSAGE value="Itération 3 - Pseudo code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Itération 3 - Pseudo code" />
   </component>
 </project>

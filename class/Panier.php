@@ -4,6 +4,8 @@
 class Panier
 {
     // 1 - Création d'un tableau associatif basé sur la table "products" en prenant "id" & "quantité"
+https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/tableau-associatif/
+https://tutowebdesign.com/les-tableaux-php.php
 
     // 2 - Construct avec connexion à la BDD
 
