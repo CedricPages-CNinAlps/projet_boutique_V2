@@ -38,7 +38,7 @@ class Article {
         return $this->name;
     }
 
-    /*public function getDescription()
+    public function getDescription()
     {
         return $this->description;
     }*/
